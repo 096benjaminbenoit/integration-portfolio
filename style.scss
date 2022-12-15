@@ -6,6 +6,10 @@
     font-family: montserrat;
 }
 
+a {
+    color: black;
+}
+
 header {
 
     .header-image {
@@ -41,7 +45,6 @@ header {
         }
 
         ul {
-            padding: 10px 0px;
             @media screen and (min-width: 768px) {
                 display: flex;
                 flex-direction: row;
@@ -50,7 +53,7 @@ header {
                 margin-right: auto;
 
                 li {
-                    padding: 5px;
+                    padding: 20px 5px;
                     color: black;
                     font-size: 12px;
 

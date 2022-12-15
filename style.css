@@ -6,6 +6,10 @@
   font-family: montserrat;
 }
 
+a {
+  color: black;
+}
+
 header .header-image {
   background: url(/images/img_header.jpg) no-repeat center center;
   background-size: cover;
@@ -36,9 +40,6 @@ header nav {
     margin-left: 30px;
   }
 }
-header nav ul {
-  padding: 10px 0px;
-}
 @media screen and (min-width: 768px) {
   header nav ul {
     display: flex;
@@ -48,7 +49,7 @@ header nav ul {
     margin-right: auto;
   }
   header nav ul li {
-    padding: 5px;
+    padding: 20px 5px;
     color: black;
     font-size: 12px;
   }
