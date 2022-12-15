@@ -486,9 +486,12 @@ footer ul {
   align-items: center;
 }
 footer ul img {
-  width: 20px;
+  width: 30px;
   filter: invert(1);
   margin: 10px 10px;
+  border: solid 1px black;
+  border-radius: 50%;
+  padding: 5px;
 }
 footer ul img:hover {
   opacity: 0.8;
