@@ -227,11 +227,9 @@ header nav {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 }
 @media screen and (min-width: 768px) {
   .section-3 .gallerie-icon {
-    width: 800px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -244,8 +242,8 @@ header nav {
   align-items: center;
   background-color: white;
   height: 200px;
-  width: 200px;
-  margin: 20px;
+  width: 300px;
+  margin: 40px;
   box-shadow: 8px -1px 32px -11px rgba(0, 0, 0, 0.61);
 }
 .section-3 .gallerie-icon .bloc-icon img {

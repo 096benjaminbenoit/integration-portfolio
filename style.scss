@@ -236,9 +236,7 @@ align-items: center;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
         @media screen and (min-width: 768px) {
-            width: 800px;
             margin-top: 30px;
             margin-left: auto;
             margin-right: auto;
@@ -251,8 +249,8 @@ align-items: center;
             align-items: center;
             background-color: white;
             height: 200px;
-            width: 200px;
-            margin: 20px;
+            width: 300px;
+            margin: 40px;
             box-shadow: 8px -1px 32px -11px rgba(0,0,0,0.61);
     
             img {
